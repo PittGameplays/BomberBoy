@@ -1,0 +1,84 @@
+[gd_scene load_steps=11 format=3 uid="uid://d3adkeefx6tow"]
+
+[ext_resource type="Script" path="res://Scripts/mario.gd" id="1_3486i"]
+[ext_resource type="Texture2D" uid="uid://cpsx1pt7adenk" path="res://Assets/MiniMario.png" id="1_i5phj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1kqyw"]
+size = Vector2(12, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bhnqn"]
+atlas = ExtResource("1_i5phj")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4e4i1"]
+atlas = ExtResource("1_i5phj")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pge2l"]
+atlas = ExtResource("1_i5phj")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ul1rk"]
+atlas = ExtResource("1_i5phj")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w8hkm"]
+atlas = ExtResource("1_i5phj")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4x374"]
+atlas = ExtResource("1_i5phj")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fnmxb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bhnqn")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4e4i1")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pge2l")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ul1rk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w8hkm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4x374")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 6.0
+}]
+
+[node name="Mario" type="CharacterBody2D"]
+texture_filter = 1
+script = ExtResource("1_3486i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_1kqyw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_fnmxb")
+animation = &"jump"
+autoplay = "idle"
