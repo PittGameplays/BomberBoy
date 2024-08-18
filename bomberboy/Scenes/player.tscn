@@ -15,10 +15,6 @@ region = Rect2(64, 0, 32, 32)
 atlas = ExtResource("2_oc01j")
 region = Rect2(96, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tjheo"]
-atlas = ExtResource("2_oc01j")
-region = Rect2(128, 0, 32, 32)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_snnhe"]
 atlas = ExtResource("2_oc01j")
 region = Rect2(160, 0, 32, 32)
@@ -46,6 +42,10 @@ region = Rect2(96, 32, 32, 32)
 [sub_resource type="AtlasTexture" id="AtlasTexture_2kpb8"]
 atlas = ExtResource("2_oc01j")
 region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tjheo"]
+atlas = ExtResource("2_oc01j")
+region = Rect2(128, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0qcm7"]
 atlas = ExtResource("2_oc01j")
@@ -139,9 +139,6 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tjheo")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_snnhe")
 }, {
 "duration": 1.0,
@@ -161,6 +158,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2kpb8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tjheo")
 }],
 "loop": true,
 "name": &"walk_down",
@@ -234,7 +234,7 @@ script = ExtResource("1_ecgbm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_5cvyw")
-animation = &"walk_down"
+animation = &"walk_right"
 autoplay = "idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
