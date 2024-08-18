@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1723949271
-::res://Assets/::1723933943
+::res://::1723941270
+::res://Assets/::1723934034
 bomb.png::CompressedTexture2D::3223056753919091625::1723931813::1723931892::1::::<><>::
 Bomberman.png::CompressedTexture2D::344877138652097607::1723933418::1723934034::1::::<><>::
 bomb_party_v3.png::CompressedTexture2D::4734166172856677068::1723931656::1723931892::1::::<><>::
 icon.svg::CompressedTexture2D::3621409396560837644::1723948858::1723949271::1::::<><>::
-::res://Scenes/::1723931537
-player.tscn::PackedScene::3472236637712691722::1723931537::0::1::::<><>::res://Scripts/player.gd<>uid://bruic3yo8s6ui::::res://Assets/icon.svg
-::res://Scripts/::1723931534
-player.gd::GDScript::-1::1723931534::0::1::::<>CharacterBody2D<>::
+::res://Scenes/::1723938491
+player.tscn::PackedScene::3472236637712691722::1723938491::0::1::::<><>::res://Scripts/player.gd<>uid://e6cct7ray3lb::::res://Assets/Bomberman.png
+::res://Scripts/::1723938492
+player.gd::GDScript::-1::1723938492::0::1::::<>CharacterBody2D<>::
