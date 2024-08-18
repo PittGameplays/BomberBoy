@@ -1,7 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1723950535
-::res://Assets/::1723950690
+::res://::1723951300
+::res://Assets/::1723952312
 icon.svg::CompressedTexture2D::3621409396560837644::1723948858::1723949271::1::::<><>::
 MiniMario.png::CompressedTexture2D::5864276561660512428::1723950680::1723950696::1::::<><>::
-::res://Scenes/::1723947416
-::res://Scripts/::1723947422
+Tiles.png::CompressedTexture2D::5372178283252117026::1723952312::1723952314::1::::<><>::
+::res://Scenes/::1723951049
+mario.tscn::PackedScene::9124749898393330246::1723951049::0::1::::<><>::res://Scripts/mario.gd<>uid://cpsx1pt7adenk::::res://Assets/MiniMario.png
+::res://Scripts/::1723951047
+mario.gd::GDScript::-1::1723951047::0::1::::<>CharacterBody2D<>::

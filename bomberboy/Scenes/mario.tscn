@@ -80,5 +80,11 @@ shape = SubResource("RectangleShape2D_1kqyw")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_fnmxb")
-animation = &"jump"
+animation = &"idle"
 autoplay = "idle"
+frame_progress = 0.703225
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = 0
+limit_bottom = 208
+limit_smoothed = true
