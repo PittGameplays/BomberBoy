@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpp8h3a0wmrks"]
+
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_ecgbm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5cvyw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0q6yp"]
+size = Vector2(20, 34)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_ecgbm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_5cvyw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -7)
+shape = SubResource("RectangleShape2D_0q6yp")
