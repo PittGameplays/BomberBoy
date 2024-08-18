@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< HEAD
 ::res://::1723956124
 ::res://Assets/::1723954842
 icon.svg::CompressedTexture2D::3621409396560837644::1723954384::1723954842::1::::<><>::
@@ -9,3 +10,15 @@ level_1.tscn::PackedScene::8001915979118793249::1723954384::0::1::::<><>::uid://
 mario.tscn::PackedScene::9124749898393330246::1723954384::0::1::::<><>::res://Scripts/mario.gd<>uid://cpsx1pt7adenk::::res://Assets/MiniMario.png
 ::res://Scripts/::1723954384
 mario.gd::GDScript::-1::1723954384::0::1::::<>CharacterBody2D<>::
+=======
+::res://::1723952445
+::res://Assets/::1723953323
+icon.svg::CompressedTexture2D::3621409396560837644::1723948858::1723949271::1::::<><>::
+MiniMario.png::CompressedTexture2D::5864276561660512428::1723950680::1723950696::1::::<><>::
+Tiles.png::CompressedTexture2D::5372178283252117026::1723953428::1723953430::1::::<><>::
+::res://Scenes/::1723952767
+mario.tscn::PackedScene::9124749898393330246::1723952737::0::1::::<><>::res://Scripts/mario.gd<>uid://cpsx1pt7adenk::::res://Assets/MiniMario.png
+level_1.tscn::PackedScene::8001915979118793249::1723952767::0::1::::<><>::uid://cisk8ydtc738q::::res://Assets/Tiles.png<>uid://d3adkeefx6tow::::res://Scenes/mario.tscn
+::res://Scripts/::1723951047
+mario.gd::GDScript::-1::1723951047::0::1::::<>CharacterBody2D<>::
+>>>>>>> 2fae35c52a0ee69ec22047ab2517ef6de4ea73ce
