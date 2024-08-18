@@ -1,2 +1,5 @@
 res://Scenes/player.tscn
 res://Scenes/level_1.tscn
+res://Scenes/bomb.tscn
+res://Scripts/bomb.gd
+res://Scripts/player.gd

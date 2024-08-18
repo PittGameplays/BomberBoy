@@ -1,4 +1,7 @@
-TileMapLayer
+Timer
 CollisionShape2D
 AnimatedSprite2D
+Area2D
+TileMapLayer
+Node2D
 CharacterBody2D
