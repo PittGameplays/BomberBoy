@@ -73,4 +73,4 @@ btn_jump={
 
 textures/canvas_textures/default_texture_filter=0
 anti_aliasing/screen_space_roughness_limiter/enabled=false
-environment/defaults/default_clear_color=Color(0.444416, 0.653835, 0.917693, 1)
+environment/defaults/default_clear_color=Color(0.374796, 0.573703, 1, 1)

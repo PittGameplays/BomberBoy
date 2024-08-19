@@ -1,2 +1,6 @@
 res://Scenes/mario.tscn
 res://Scenes/level_1.tscn
+res://Scripts/mario.gd
+res://Scripts/brick.gd
+res://Scripts/prize_block.gd
+res://Scenes/block.gd

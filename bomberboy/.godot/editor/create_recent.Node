@@ -1,8 +1,10 @@
-TileMapLayer
-Camera2D
 Node2D
-AnimatedSprite2D
 CollisionShape2D
-CharacterBody2D
-Timer
 Area2D
+TileMapLayer
+Timer
+Sprite2D
+AnimatedSprite2D
+StaticBody2D
+Camera2D
+CharacterBody2D

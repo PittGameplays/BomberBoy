@@ -1,24 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-<<<<<<< HEAD
-::res://::1723956124
-::res://Assets/::1723954842
-icon.svg::CompressedTexture2D::3621409396560837644::1723954384::1723954842::1::::<><>::
-MiniMario.png::CompressedTexture2D::5864276561660512428::1723954384::1723954842::1::::<><>::
-Tiles.png::CompressedTexture2D::5372178283252117026::1723954384::1723954842::1::::<><>::
-::res://Scenes/::1723954384
-level_1.tscn::PackedScene::8001915979118793249::1723954384::0::1::::<><>::uid://cisk8ydtc738q::::res://Assets/Tiles.png<>uid://d3adkeefx6tow::::res://Scenes/mario.tscn
-mario.tscn::PackedScene::9124749898393330246::1723954384::0::1::::<><>::res://Scripts/mario.gd<>uid://cpsx1pt7adenk::::res://Assets/MiniMario.png
-::res://Scripts/::1723954384
-mario.gd::GDScript::-1::1723954384::0::1::::<>CharacterBody2D<>::
-=======
-::res://::1723952445
-::res://Assets/::1723953323
+::res://::1724078912
+::res://Assets/::1724079525
 icon.svg::CompressedTexture2D::3621409396560837644::1723948858::1723949271::1::::<><>::
 MiniMario.png::CompressedTexture2D::5864276561660512428::1723950680::1723950696::1::::<><>::
-Tiles.png::CompressedTexture2D::5372178283252117026::1723953428::1723953430::1::::<><>::
-::res://Scenes/::1723952767
-mario.tscn::PackedScene::9124749898393330246::1723952737::0::1::::<><>::res://Scripts/mario.gd<>uid://cpsx1pt7adenk::::res://Assets/MiniMario.png
-level_1.tscn::PackedScene::8001915979118793249::1723952767::0::1::::<><>::uid://cisk8ydtc738q::::res://Assets/Tiles.png<>uid://d3adkeefx6tow::::res://Scenes/mario.tscn
-::res://Scripts/::1723951047
-mario.gd::GDScript::-1::1723951047::0::1::::<>CharacterBody2D<>::
->>>>>>> 2fae35c52a0ee69ec22047ab2517ef6de4ea73ce
+NES - Super Mario Bros - World 1-1.png::CompressedTexture2D::6279737691455681707::1724078908::1724078912::1::::<><>::
+Tiles.png::CompressedTexture2D::5372178283252117026::1724079559::1724079561::1::::<><>::
+::res://Scenes/::1724079456
+brick.tscn::PackedScene::3340607689346351824::1724075668::0::1::::<><>::res://Scripts/brick.gd<>uid://cisk8ydtc738q::::res://Assets/Tiles.png
+level_1.tscn::PackedScene::8001915979118793249::1724079456::0::1::::<><>::uid://cisk8ydtc738q::::res://Assets/Tiles.png<>uid://opf3f47sj3sk::::res://Scenes/prize_block.tscn<>uid://d3adkeefx6tow::::res://Scenes/mario.tscn<>uid://cvp7mk2yxc21l::::res://Assets/NES - Super Mario Bros - World 1-1.png<>uid://bnuhk5t4o247e::::res://Scenes/brick.tscn
+mario.tscn::PackedScene::9124749898393330246::1724078545::0::1::::<><>::res://Scripts/mario.gd<>uid://cpsx1pt7adenk::::res://Assets/MiniMario.png
+prize_block.tscn::PackedScene::1013963373330972550::1724075328::0::1::::<><>::uid://cisk8ydtc738q::::res://Assets/Tiles.png<>res://Scripts/prize_block.gd
+::res://Scripts/::1724078477
+brick.gd::GDScript::-1::1724077795::0::1::::<>StaticBody2D<>::
+mario.gd::GDScript::-1::1724077770::0::1::::<>CharacterBody2D<>::
+prize_block.gd::GDScript::-1::1724078477::0::1::::<>StaticBody2D<>::
